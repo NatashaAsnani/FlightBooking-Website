@@ -8,10 +8,15 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ex6L2QoZp3FLJ4+znPdnxHJv/hfN30g33VJNCaNTG5o6uLCFNwA6ObiLqdgIR5a86r/98Sc4+55jtHJBjqd9w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous" defer></script>   
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous" defer></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>   
   </head>
 <body>
+  <script>
+    AOS.init();
+  </script>
   <div class="container">
     <div class="row">
       <div>
@@ -144,12 +149,12 @@
     </div>
   </div>
     <div class="container">
-      <div class="row choose">
+      <div class="row choose" data-aos="fade-down">
         <h4>WHY CHOOSE US</h4>
         <div class="underline"></div>
       </div>
       <div class="row cards">
-        <div class="col-md-4">
+        <div class="col-md-4" data-aos="flip-right">
           <div class="card" style="width: 18rem;">
             <div class="card-body">
               <i class="fa fa-award award" style="font-size: large; color: #1b6c89;"></i>
@@ -158,7 +163,7 @@
             <p class="card-text p-2">Travel agencies that round trip, one way, and multi trip services.</p>
           </div>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4" data-aos="flip-right">
           <div class="card" style="width: 18rem;">
             <div class="card-body">
               <div class="icon-wrapper">
@@ -169,7 +174,7 @@
               <p class="card-text p-2">The price offers are affordable starting from the ordinary to the exclusive.</p>
           </div>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4" data-aos="flip-right">
           <div class="card" style="width: 18rem;">
             <div class="card-body">
               <div class="icon-wrapper">
@@ -183,7 +188,7 @@
       </div>
 
       <div class="row global">
-        <div class="col">
+        <div class="col" data-aos="zoom-in-up">
           <div class="card" style="width: 16rem;">
             <div class="card-body">
               <h3 class="card-title">GLOBAL<span class="guide"> GUIDE</span></h3> 
@@ -193,7 +198,7 @@
             </div>
           </div>
         </div>
-        <div class="col">
+        <div class="col" data-aos="zoom-in-up">
           <div class="card" style="width: 16rem;">
             <div class="card-body">
               <h3 class="card-title">GLOBAL<span class="guide"> GUIDE</span></h3> 
@@ -203,7 +208,7 @@
             </div>
           </div>
         </div>
-        <div class="col">
+        <div class="col" data-aos="zoom-in-up">
           <div class="card" style="width: 16rem;">
             <div class="card-body">
               <h3 class="card-title">GLOBAL <span class="guide"> GUIDE</span></h3> 
@@ -213,7 +218,7 @@
             </div>
           </div>
         </div>
-        <div class="col">
+        <div class="col" data-aos="zoom-in-up">
           <div class="card" style="width: 16rem;">
             <div class="card-body">
               <h3 class="card-title">GLOBAL <span class="guide"> GUIDE</span></h3> 
@@ -224,12 +229,12 @@
           </div>
         </div>
       </div>
-      <div class="row ">
+      <div class="row" data-aos="zoom-in-right">
         <h5 class="fw-bold m-3">Special Offers</h5>
         <div class="underline1"></div>
       </div>
       <div class="row buildings">
-        <div class="col-md-4">
+        <div class="col-md-4" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
             <div class="card">
               <img src="building.png" class="card-img-bottom" alt="..."  height="350px">
                   <div class="bottom-left"><p>Green Canyon Waterfall</p></div>
@@ -241,7 +246,7 @@
             </div>
         </div>
 
-        <div class="col-md-4">
+        <div class="col-md-4" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="300" data-aos-offset="0">
           <div class="card">
             <img src="mountain.jpg" class="card-img-bottom" alt="..."  height="350px">
                 <div class="bottom-left"><p>Ujung Genteng Beach</p></div>
@@ -253,7 +258,9 @@
           </div>
         </div>
 
-        <div class="col-md-4">
+        <div class="col-md-4" data-aos="flip-left"
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="2000">
           <div class="card">
             <img src="waterfalling.png" class="card-img-bottom" alt="..."  height="350px">
                 <div class="bottom-left"><p>Api Dwiwarna Waterfall</p></div>
@@ -268,7 +275,7 @@
 
 
         <div class="row secondpart">
-          <div class="col-md-4">
+          <div class="col-md-4" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
             <div class="card">
               <img src="grassmountain.png" class="card-img-bottom" alt="..."  height="350px">
                   <div class="bottom-left"><p>Pantai Kemarin Store</p></div>
@@ -280,7 +287,7 @@
             </div>
           </div>
 
-          <div class="col-md-4">
+          <div class="col-md-4" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="300" data-aos-offset="0">
             <div class="card">
               <img src="girlhat.png" class="card-img-bottom" alt="..."  height="350px">
                   <div class="bottom-left"><p>Cikembar Waterfall</p></div>
@@ -292,7 +299,9 @@
             </div>
           </div>
 
-          <div class="col-md-4">
+          <div class="col-md-4" data-aos="flip-left"
+          data-aos-easing="ease-out-cubic"
+          data-aos-duration="2000">
             <div class="card">
               <img src="beach.png" class="card-img-bottom" alt="..."  height="350px">
                   <div class="bottom-left"><p>Dua Warna Beach </p></div>
@@ -306,23 +315,23 @@
         </div>
 
 
-      <div class="row alltheworld">
-        <div class="col-md-6">
+      <div class="row alltheworld" >
+        <div class="col-md-6" data-aos="fade-right">
           <button style="color: #1b6c89; background-color: rgb(175, 208, 218); height: 24px; border: none; border-radius: 15px;">About Us</button>
           <h1>Explore all the corners with us</h1>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta optio libero animi ratione natus non vero nobis ex, id quas tempora quos quasi. Ipsam non vero in reprehenderit fugit quod!</p>
           <button class="explore">Explore Now</button>
         </div>
-        <div class="col-md-6 worldround">
+        <div class="col-md-6 worldround" data-aos="fade-up-left">
           <img class="roundside" src="world.png" alt="" height="350px" width="500px">
         </div>
       </div>
 
       <div class="row service">
-        <div class="col-md-6 worldround">
+        <div class="col-md-6 worldround" data-aos="fade-up-right">
             <img class="roundside" src="ducks1.png" alt="" height="350px" width="500px">
         </div>
-        <div class="col-md-6">
+        <div class="col-md-6" data-aos="fade-up-left">
           <button style="color: #1b6c89; background-color: rgb(175, 208, 218); height: 24px; border: none; border-radius: 15px;">Service</button>
           <h1>Get to know more about professional tour guides</h1>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta optio libero animi ratione natus non vero nobis ex, id quas tempora quos quasi. Ipsam non vero in reprehenderit fugit quod!</p>
@@ -334,12 +343,12 @@
         <button class="test">Testimonial</button>
       </div>
 
-      <div class="row mt-2">
+      <div class="row mt-2" data-aos="zoom-in">
         <h4 class="text-center fw-bold"> What our customers saying</h4>
       </div>
 
       <div class="row reviews">
-        <div class="col-md-4">
+        <div class="col-md-4" data-aos="flip-left">
           <div class="card3" style="width: 18rem;">
             <div class="card-body3">
               <h6 class="card-title3"><img src="review1.avif" alt="" height="30px" width="37px" style="border-radius: 50%;"> Alexander Yamin
@@ -349,7 +358,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4" data-aos="flip-up">
           <div class="card3" style="width: 18rem;">
             <div class="card-body3">
               <h6 class="card-title3"><img src="review1.avif" alt="" height="30px" width="37px" style="border-radius: 50%;"> Alexander Yamin
@@ -359,7 +368,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4" data-aos="flip-right">
           <div class="card3" style="width: 18rem;">
             <div class="card-body3">
               <h6 class="card-title3"><img src="review1.avif" alt="" height="30px" width="37px" style="border-radius: 50%;"> Alexander Yamin
@@ -371,12 +380,12 @@
         </div>
       </div>
 
-      <div class="row viewer">
+      <div class="row viewer"  data-aos="zoom-in">
         <button class="viewall">View all review</button>
       </div>
 
       <div class="row travellin">
-        <div class="col-md-4">
+        <div class="col-md-4"  data-aos="zoom-out-up">
           <h5 style="color: #1b6c89;">Travellin.</h5>
           <p class="text-muted lorem">Lorem ipsum dolor sit amet consectetur adipisicing elit ipsum dolor sit amet it.</p>
           <div class="mailing">
@@ -386,25 +395,25 @@
             <i class="fa fa-phone"></i> <span class="text-muted mail p-3">021-354-777</span> 
           </div>
         </div>
-        <div class="col-md-2">
+        <div class="col-md-2" data-aos="zoom-out-down">
           <h5>Our Service</h5>
           <p class="text-muted serve">Round Trip</p>
           <p class="text-muted">Multi Trip</p>
           <p class="text-muted">One Way</p>
         </div>
-        <div class="col-md-2">
+        <div class="col-md-2" data-aos="zoom-out-up">
           <h5>Our Product</h5>
           <p class="text-muted serve">Mountain</p>
           <p class="text-muted">Beach</p>
           <p class="text-muted">Waterfall</p>
         </div>
-        <div class="col-md-2">
+        <div class="col-md-2" data-aos="zoom-out-down">
           <h5>Resources</h5>
           <p class="text-muted serve">FAQ</p>
           <p class="text-muted">How it works</p>
           <p class="text-muted">Partners</p>
         </div>
-        <div class="col-md-2">
+        <div class="col-md-2" data-aos="zoom-out-up">
           <h5>Information</h5>
           <p class="text-muted serve">About Us</p>
           <p class="text-muted">Services</p>
