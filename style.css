@@ -498,7 +498,7 @@ li {
 }
 
 /* For mobile devices */
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
     .navbar {
         position: static;
         width: 100%;
@@ -515,7 +515,88 @@ li {
         width: 80px;
         height: 30px;
     }
-}
+} */
+
+/* Adjustments for small screens */
+@media screen and (max-width: 768px) {
+    /* Navbar adjustments */
+    .navbar {
+      position: absolute;
+      top: 20px; /* Adjust as needed */
+      left: 50%;
+      transform: translateX(-50%);
+      width: 90%;
+      background-color: transparent; /* Adjust background color */
+    }
+    .nav {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .navbar-brand {
+      margin-right: auto;
+    }
+    .navbar-nav {
+      margin-left: auto;
+    }
+    .logreg {
+      display: none; /* Hide login/register buttons */
+    }
+  
+    /* Carousel adjustments */
+    .caros {
+      padding-top: 20px; /* Adjust as needed */
+      text-align: center;
+    }
+    .heading h1 {
+      font-size: 24px; /* Adjust heading font size */
+      margin-top: -90px; /* Adjust margin as needed */
+    }
+    .carousel-right-button {
+      display: none; /* Hide carousel right button */
+    }
+    .para {
+      font-size: 14px; /* Adjust paragraph font size */
+      /* margin-bottom: 130px; Adjust margin as needed */
+    }
+    .explore,
+    .offer {
+      margin-right: 10px; /* Adjust margin between buttons */
+    }
+  
+    /* Tabs adjustments */
+    .tabs {
+      display: none;
+    }
+    .nav-tabs {
+      display: flex;
+      justify-content: center;
+      /* align-items: start; */
+      width: 100%;
+      margin-left: 0px;
+      margin-right: 700px;
+    }
+  
+    /* Table adjustments */
+    .table {
+    /* margin: 100px; */
+      margin-top: 50px; /* Adjust margin as needed */
+    }
+    .table-light {
+      width: 100%;
+    }
+    .icon {
+      margin-right: 5px; /* Adjust icon margin */
+    }
+    .dropdown-toggle {
+      padding: 5px 10px; /* Adjust padding as needed */
+    }
+    .search {
+      margin-top: 10px; /* Adjust margin as needed */
+      text-align: center;
+    }
+  }
+  
 
 /* For small mobile devices */
 @media (max-width: 576px) {
