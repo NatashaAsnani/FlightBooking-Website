@@ -1,2 +1,2 @@
-# Ecommerce-Website
-It is a highly responsive ecommerce website built with HTML, CSS, and Bootstrap.
+# FlightBooking-Website
+It is a highly responsive flight-booking website built with HTML, CSS, and Bootstrap.
