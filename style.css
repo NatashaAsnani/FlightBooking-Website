@@ -1,0 +1,533 @@
+.navbar{
+    position: absolute;
+    top: 10px;
+    width: 1185px;
+}
+.lock{
+    margin-left: 30px;
+}
+/* ul{
+    margin-left: 200px;
+} */
+li{
+    font-weight: bold;
+    font-size: xx-small;
+}
+.logreg{
+    /* margin-right: 300px; */
+    justify-content: end;
+}
+.login{
+    color: #2596be;
+    border: 1px solid #2596be;
+    background-color: transparent;
+    height: 40px;
+    width: 100px;
+    border-radius: 10px;
+}
+.register{
+    color: white;
+    background-color: #2596be;
+    border: 1px solid #2596be;
+    height: 40px;
+    width: 100px;
+    border-radius: 10px;
+}
+.caros{
+    width: 700px;
+    margin-top: -500px;
+    margin-left: 100px;
+}
+.heading{   
+    color: white;
+    font-weight: bolder;
+    font-family: Arial black;
+}
+.carousel-right-button {
+    position: absolute;
+    top: 40%;
+    right: 100px;
+    border: 1px solid white;
+    color: white;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    z-index: 999; /* Ensure it's above the carousel */
+  }
+  
+  .carousel-right-button span {
+    font-size: 24px;
+    /* line-height: 0; */
+    margin-top: -5px;
+  }
+  
+  
+.para{
+    color: white;
+    font-weight: lighter;
+    margin: 20px 0;
+}
+.explore{
+    background-color: #1b6c89;
+    border: 1px solid #2596be;
+    color: white;
+    height: 40px;
+    border-radius: 10px;
+}
+.offer{
+    border: 1px solid white;
+    color: white;
+    background-color: transparent;
+    height: 40px;
+    border-radius: 10px;
+}
+
+.tabs{
+    width: 500px;
+    margin: 30px;
+    margin-left: 20px;
+}
+.table{
+    width: 970px;
+    height: 100px;
+    margin: 30px;
+    margin-left: 110px;
+}
+
+th{
+    color: #1b6c89;
+}
+.icon{
+    font-size: 14px;
+}
+.table.table-light tbody {
+    border: none;
+}
+.btn{
+    border: 1px solid #1b6c89;
+    border-radius: 10px;
+}
+.btn.person{
+    width: 150px;
+    
+}
+.search{
+    width: 150px;
+   
+}
+.flight{
+    background-color: #1b6c89;
+    border: 1px solid #1b6c89;
+    border-radius: 10px;
+    color: white;
+}
+.choose{
+    font-weight: bold;
+    text-align: center;
+    margin: 100px;
+}
+.underline{
+    width: 50px;
+    height: 4px;
+    background-color: rgb(28, 28, 163);
+    margin: 8px auto 0;
+    border-radius: 2px;
+}
+.cards{
+    /* margin:auto; */
+    margin-top: -40px;
+    margin-left: 80px;
+}
+.card{
+    border: none;
+}
+.card-title{
+    font-style: italic;
+    color: orange;
+}
+.guide{
+    color: #1b6c89;
+    font-weight:normal;
+}
+.card-subtitle1{
+    letter-spacing: 4px;
+    font-size: x-small;
+}
+h6{
+    font-weight: bold;
+    font-size: small;
+}
+.card-text{
+    font-size: smaller;
+}
+.award{
+    height: 50%;
+    background-color: #d6ddea;
+    padding: 5px;
+    border-radius: 50%;
+}
+.icon-wrapper .fa {
+    height: 50%;
+    padding: 5px;
+    font-size: large;
+    color: #1b6c89;
+    background-color: #d6ddea;
+    border-radius: 50%;
+}
+.global{
+    margin-top: 100px;
+}
+.underline1{
+    width: 65px;
+    height: 4px;
+    background-color: rgb(28, 28, 163);
+    margin-left: 25px;
+    border-radius: 2px;
+}
+.buildings{
+    margin-top: 50px;
+}
+.card2{
+    border-radius: 25px;
+}
+.card-img{
+    height: 350px;
+    width: 300px;
+    border-radius: 25px;
+    margin-left: 30px;
+}
+.round-trip{
+    border-radius: 20px;
+    border: none;
+    background-color: white;
+    color: #1b6c89;
+    font-size: x-small;
+    padding: 5px;
+    width: 80px;
+}
+.waterfalls{
+    margin-left: 40px;
+    margin-top: 150px;
+    font-size: smaller;
+    font-weight: bold;
+}
+.indo{
+    background-color: transparent;
+    border: none;
+    margin-top: -90px;
+    color: white;
+    font-size: xx-small;
+    margin-left: 20px;
+    font-family: Arial;
+}
+.heart{
+    margin-left: 620px;
+    height: 0;
+    width: 0;
+}
+.money{
+    margin-top: 400px;
+    margin-left: 400px;
+    /* margin-top: -170px; */
+}
+.details{
+    margin-top: 20px;
+    background-color: rgb(35, 62, 129);
+    color: white;
+    border: none;
+    padding: 10px;
+    margin-left: 50px;
+    border-radius: 15px;
+    width: 270px;
+    font-size: smaller;
+}
+.beach{
+    margin-left: 70px;
+}
+
+  /* Bottom left text */
+  .bottom-left {
+    position: absolute;
+    bottom: 20px;
+    left: 16px;
+    color: white;
+  }
+  
+  /* Top left text */
+  .top-left {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    color: white;
+  }
+  
+  /* Top right text */
+  .top-right {
+    position: absolute;
+    top: 8px;
+    right: 50px;
+    color: white;
+  }
+  
+  /* Bottom right text */
+  .bottom-right {
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+    color: white;
+  }
+  
+  /* Centered text */
+  .centered {
+    position: absolute;
+    top: 110%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+  }
+
+  .secondpart{
+    margin-top: 110px;
+  }
+
+  .alltheworld{
+    margin-top: 300px;
+  }
+  .worldround{
+    margin-top: -70px;
+  }
+  .roundside{
+    border-radius: 0 20px 0 20px;
+  }
+  .service{
+    margin-top: 190px;
+  }
+  .testimonial{
+    margin-top: 120px;
+    width: 90px;
+    font-size: x-small;
+  }
+  .test{
+    margin-left: 530px;
+    background-color: rgb(204, 231, 248);
+    border: rgb(174, 215, 240);
+    border-radius: 15px;
+    padding: 6px;
+  }
+  .reviews{
+    margin-top: 60px;
+  }
+  .card-subtitle3{
+    margin-left: 40px;
+    font-weight: lighter;
+    font-size: x-small;
+  }
+  .viewer{
+    margin-top: 40px;
+  }
+  .viewall{
+    border: 1px solid #1b6c89;
+    border-radius: 10px;
+    padding: 7px;
+    color: #1b6c89;
+    width: 150px;
+    margin-left: 510px;
+  }
+  .travellin{
+    margin-top: 120px;
+  }
+  .lorem{
+    font-size: smaller;
+    margin-top: 20px;
+  }
+  .mail{
+    font-size: smaller;
+  }
+  .mailing .phone{
+    margin-top: 20px;
+  }
+  .phone{
+    margin-top: 10px;
+  }
+  .serve{
+    margin-top: 20px;
+  }
+  .copyright{
+    margin-top: 100px;
+  }
+  .reserved{
+    text-align: center;
+  }
+  .whatsapp-icon {
+    /* background-color: #25D366; Official WhatsApp color */
+    font-size: 40px; /* Adjust size as needed */
+    color:  #25D366;;
+}
+i.whatsapp{
+    color:  white;;
+}
+.whatsapp{
+    margin-top: 60px;
+    float: right;
+}
+  
+
+
+
+
+
+/* Base styles */
+.navbar {
+    position: absolute;
+    top: 10px;
+    width: 1185px;
+}
+ul {
+    margin-left: 300px;
+}
+li {
+    font-weight: bold;
+    font-size: large;
+}
+.logreg {
+    margin-right: 100px;
+}
+.login {
+    color: #2596be;
+    border: 1px solid #2596be;
+    background-color: transparent;
+    height: 40px;
+    width: 100px;
+    border-radius: 10px;
+}
+.register {
+    color: white;
+    background-color: #2596be;
+    border: 1px solid #2596be;
+    height: 40px;
+    width: 100px;
+    border-radius: 10px;
+}
+.caros {
+    width: 700px;
+    margin-top: -500px;
+    margin-left: 100px;
+}
+.heading {   
+    color: white;
+    font-weight: bolder;
+    font-family: Arial black;
+}
+.carousel-right-button {
+    position: absolute;
+    top: 40%;
+    right: 100px;
+    border: 1px solid white;
+    color: white;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    z-index: 999;
+}
+
+.navbar-nav li a {
+    position: relative;
+}
+
+.navbar-nav li a::after {
+    content: '';
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    background-color: #1b6c89;
+    border-radius: 50%;
+    bottom: -5px;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.navbar-nav li a:hover::after {
+    opacity: 1;
+    animation: dotAnimation 0.5s infinite alternate;
+}
+
+@keyframes dotAnimation {
+    0% {
+        transform: translateX(-50%) scale(0);
+    }
+    100% {
+        transform: translateX(-50%) scale(1);
+    }
+}
+
+
+/* Media Queries */
+
+/* For tablets and below */
+@media (max-width: 992px) {
+    .navbar {
+        width: 100%;
+        top: 0;
+    }
+    ul {
+        margin-left: 0;
+        padding-left: 0;
+        text-align: center;
+    }
+    .logreg {
+        margin-right: 0;
+        text-align: center;
+    }
+    .caros {
+        width: 90%;
+        margin-top: -400px;
+        margin-left: 5%;
+    }
+    .carousel-right-button {
+        right: 10%;
+    }
+}
+
+/* For mobile devices */
+@media (max-width: 768px) {
+    .navbar {
+        position: static;
+        width: 100%;
+    }
+    .caros {
+        width: 100%;
+        margin-top: -300px;
+        margin-left: 0;
+    }
+    .carousel-right-button {
+        right: 5%;
+    }
+    .login, .register {
+        width: 80px;
+        height: 30px;
+    }
+}
+
+/* For small mobile devices */
+@media (max-width: 576px) {
+    .heading {
+        font-size: 1.5rem;
+    }
+    .carousel-right-button {
+        width: 30px;
+        height: 30px;
+    }
+    .login, .register {
+        width: 70px;
+        height: 30px;
+    }
+}
